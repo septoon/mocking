@@ -1,7 +1,7 @@
-import fetchData from '../js/http';
-import { getLevel } from '../js/user';
+import fetchData from '../src/js/http';
+import { getLevel } from '../src/js/user';
 
-jest.mock('../js/http');
+jest.mock('../src/js/http');
 
 beforeEach(() => {
   jest.resetAllMocks();
